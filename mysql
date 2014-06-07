@@ -1,0 +1,4 @@
+mysqladmin -u root -p -r -i 1 ext | grep Threads_created
+
+Count new threads being opened in mysql
+---------------------------------------------------------
